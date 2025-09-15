@@ -85,16 +85,16 @@ Create a .env.local file in the root of your project and add your Supabase crede
 1.  **Install the Supabase CLI**:
 
         ```bash
-     npm install supabase --save-dev
+         npm install supabase --save-dev
 
-    ```
+    
 
 2.  **Log in and link your project**:
 
          ```bash
 
-    npx supabase login
-    npx supabase link --project-ref YOUR_PROJECT_ID
+         npx supabase login
+         npx supabase link --project-ref YOUR_PROJECT_ID
 
 3.  **Set up the Resend API Key**:
 
@@ -110,7 +110,7 @@ Create a .env.local file in the root of your project and add your Supabase crede
         ```bash
        npx supabase functions deploy send-reminders --no-verify-jwt
 
-   ```
+   
 
 5. **Schedule the CRON Job**:
 
@@ -122,7 +122,7 @@ Create a .env.local file in the root of your project and add your Supabase crede
 
         ```bash
         npm run dev
-   ```
+   
 
 📌 Now open \*http://localhost:3001\*\*
 in your browser.
@@ -138,8 +138,8 @@ This application is configured for Vercel deployment.
 Add Environment Variables: In your Vercel project settings, add:
 
           ```bash
-        NEXT_PUBLIC_SUPABASE_URL=YOUR_PROJECT_URL
-        NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_ANON_KEY
+            NEXT_PUBLIC_SUPABASE_URL=YOUR_PROJECT_URL
+            NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_ANON_KEY
 
 📌 **Update Supabase URLs**:
 In Supabase project settings, add your Vercel production URL to:
