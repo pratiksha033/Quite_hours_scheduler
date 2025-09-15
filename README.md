@@ -84,7 +84,7 @@ Create a .env.local file in the root of your project and add your Supabase crede
 
 1.  **Install the Supabase CLI**:
 
-    ```bash
+        ```bash
      npm install supabase --save-dev
 
     ```
@@ -107,8 +107,8 @@ Create a .env.local file in the root of your project and add your Supabase crede
 
 4. **Deploy the function**:
 
-   ```bash
-   npx supabase functions deploy send-reminders --no-verify-jwt
+        ```bash
+       npx supabase functions deploy send-reminders --no-verify-jwt
 
    ```
 
@@ -120,8 +120,8 @@ Create a .env.local file in the root of your project and add your Supabase crede
 
 6. **Run the Development Server**:
 
-   ```bash
-    npm run dev
+        ```bash
+        npm run dev
    ```
 
 📌 Now open \*http://localhost:3001\*\*
