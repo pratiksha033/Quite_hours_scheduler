@@ -46,3 +46,15 @@ Follow these instructions to set up and run the project locally.
 - A [Resend](https://resend.com/) account (for sending emails)
 
 ---
+### 1. Clone the Repository
+
+    ```bash
+     git clone https://github.com/pratiksha033/quiet-hours-scheduler.git
+     cd quiet-hours-scheduler
+
+2. Install Dependencies
+
+       ```bash
+       npm install
+
+   
