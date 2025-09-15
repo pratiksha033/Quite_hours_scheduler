@@ -33,3 +33,16 @@ This project demonstrates a modern web development stack, including a Next.js fr
 - **Deployment**: Vercel
 
 ---
+
+## 📦 Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### ✅ Prerequisites
+
+- Node.js (v18 or later)
+- npm
+- A [Supabase](https://supabase.com/) account
+- A [Resend](https://resend.com/) account (for sending emails)
+
+---
