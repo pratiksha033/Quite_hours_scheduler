@@ -17,3 +17,19 @@ This project demonstrates a modern web development stack, including a Next.js fr
 - **Secure & Scalable Backend**: Supabase with Row Level Security (RLS) ensures users only access their own data.  
 
 ---
+## 🛠 Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Backend & Database**: Supabase
+- **Authentication**: Supabase Auth
+- **Database**: Supabase Postgres
+- **Serverless Functions**: Supabase Edge Functions (Deno)
+- **CRON Jobs**: Supabase pg_cron
+- **Styling**: Tailwind CSS
+- **UI Components**:
+  - Calendar: `react-big-calendar`
+  - Auth Form: `@supabase/auth-ui-react`
+- **Email Service**: Resend
+- **Deployment**: Vercel
+
+---
